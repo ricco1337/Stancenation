@@ -1,0 +1,141 @@
+.nav-bar {
+  display: flex;
+  width: 100%;
+  margin-left: 20px;
+  text-align: center;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  margin-top: -19px;
+
+}
+  .nav-link {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    line-height: 36px;
+    letter-spacing: -1px;
+    font-size: 20px;
+    padding: 10px 12px;
+    color: #161616;
+  }
+ .nav-bar.change{
+   transition: all ease .5s;
+   position: fixed;
+   top:3%;
+   background-color:rgba(255, 255, 255, .3);
+width:57%;
+}
+   //
+  //  #coverage-dropdown{
+  //    position: absolute;
+  //  left:0%;
+  //  }
+  //  }
+  #home {
+    &:hover {
+      background-color: #f13f32;
+      color: white;
+    }
+  }
+
+  #merch {
+    &:hover {
+      background-color: #f13f32;
+      color: white;
+    }
+  }
+
+  #parts {
+    &:hover {
+      background-color: #f13f32;
+      color: white;
+    }
+  }
+
+  #features {
+    &:hover {
+      background-color: #161616;
+      color: white;
+    }
+  }
+
+  #web {
+    &:hover {
+      background-color: #ca1c35;
+      color: white;
+    }
+  }
+
+  #event {
+    &:hover {
+      background-color: #afc662;
+      color: white;
+    }
+  }
+
+  .upper-title {
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+
+  #coverage-dropdown {
+    position: absolute;
+    border-top: 4.5px solid #afc662;
+    top: 80.5%;
+    left: 0%;
+    width: 100%;
+    display: none;
+    height: 48.5vh;
+    background-color: #161616;
+  }
+
+  #car-features-dropdown {
+    position: absolute;
+    top: 80.5%;
+    left: 0%;
+    width: 100%;
+    display: none;
+    height: 48.5vh;
+    border-top: 4.5px solid #161616;
+    background-color: #161616;
+  }
+
+  #web-dropdown {
+    position: absolute;
+    border-top: 4.5px solid #ca1c35;
+    top: 80.5%;
+    left: 0%;
+    width: 100%;
+    display: none;
+    height: 48.5vh;
+    background-color: #161616;
+    display: none;
+  }
+
+  .features-dropdowns {
+    padding: 6% 0 0;
+  }
+
+  .dropdown-container {
+    padding: 1% 2% 2%;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .around-web-dropdown {
+    padding: 6% 0 0;
+  }
+
+  .dropdown-container {
+    padding: 1% 2% 2%;
+  }
+
+  .around-web-dropdown-img1 {
+    &:hover {
+      cursor: pointer;
+    }
+  }

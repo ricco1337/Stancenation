@@ -1,0 +1,63 @@
+.container {
+  font-family: 'Open Sans', sans-serif;
+  width: 63.5%;
+  margin: auto;
+  margin-bottom: -1%;
+
+  #menu-top {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    color:#161616;
+    margin-bottom: -1%;
+
+a {
+  color: inherit;
+ }
+    .texas {
+      padding-left: 5.5%;
+
+      &:hover{
+        color: grey;
+        cursor: pointer;
+
+      }
+
+    }
+
+    .instagram-sub {
+      padding-left: 4%;
+      padding-right:2px;
+      &:hover{
+        color: grey;
+        cursor: pointer;
+      }
+    }
+
+    .top-right {
+      margin-right: 1%;
+      font-size: 13px;
+      line-height: 40px;
+      word-spacing: 3.5px;
+      cursor: pointer;
+
+    }
+
+    .sub-reg {
+      display: flex;
+      white-space: nowrap;
+
+    }
+  }
+}
+
+.fa {
+  margin: 0 6px;
+  &:hover{
+    color: grey;
+  }
+}
