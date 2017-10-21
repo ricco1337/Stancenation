@@ -1,15 +1,503 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+<div class='container'>
+  <div id='menu-top'>
+    <div class='top-left'>
+      <ul class='sub-reg'>
+        <li id='insta-sub' class='instagram-sub'>
+          <a ui-sref="#">instagram submission</a>
+        </li>
+        <li id='tex' class='texas'>
+          <a ui-sref='#'>stancenation texas registration</a>
+        </li>
+      </ul>
+    </div>
+    <!-- end of top-left -->
+    <div class='top-right'>
+      <div class='search'><span><i><a ui-sref='#' class='fa fa-search'>search</a></i></span>
+        <span><i class='fa fa-facebook'><a href='https://www.facebook.com/stancenation/'></a></i></span>
+        <span><i class='fa fa-instagram'><a href="https://www.instagram.com/stancenation/"></a></i></span>
+
+
+
+      </div>
+    </div>
+    <!-- end of top-right -->
+  </div>
+  <!-- end menu-top -->
+
+  <div id='main-container' class='col-xs-12'>
+
+    <div class='row'>
+      <div class='col-xs-12' id='ad-logo'>
+        <div class='logo-img-container' id='black-logo'>
+          <img class='img-responsive' src="./img/black-logo.png"></div>
+        <div class='logo-img-container'>
+          <img class='img-responsive' id='stamps' src="./img/stamps.png">
+        </div>
+      </div>
+      <!-- end of column -->
+    </div>
+    <!-- end of row -->
+    <div class='row'>
+      <div class='col-xs-12'>
+        <div class='nav-bar'>
+
+          <div id='home' class='nav-link' ui-sref='#'>Home</div>
+
+          <div id='features' class='nav-link' ui-sref='#'>Car features
+            <div id='car-features-dropdown' class='hover-box'>
+              <div class='row drop-down-container'>
+                <div class='col-xs-12'>
+                  <h1 class='drop-down-text'>car features </h1>
+                  <p class='drop-down-see-all'>
+                    <a ui-sref='#' class='see-all'>See All</a>
+                  </p>
+                  <div class='row drop-down-imgs'>
+                    <div class='col-md-12'>
+                      <div class='col-md-4 col-xs-4'>
+                        <img class='img-responsive' src="./img/features-dropdown1.jpg">
+                        <figcaption class='drop-down-text-caption'> USDM DONE RIGHT // NORIFUMI KOBAYASHI HONDA ACCORD TOURER.
+                        </figcaption>
+                        <figcaption class='drop-down-text-caption-two'> may 21, 2017</figcaption>
+                      </div>
+                      <div class='col-md-4 col-xs-4'>
+                        <img class='img-responsive' src="./img/features-dropdown2.jpg">
+                        <figcaption class='drop-down-text-caption'>STAYING THE COURSE // CHANDRA KENZO’S MERCEDES-BENZ E250.</figcaption>
+                        <figcaption class='drop-down-text-caption-two'> april, 2017</figcaption>
+                      </div>
+                      <div class='col-md-4 col-xs-4'>
+                        <img class='img-responsive' src="./img/features-dropdown3.jpg">
+                        <figcaption class='drop-down-text-caption'> #LIFEONAIR // MAX EDWARD’S ’78 BEETLE ON AIR SUSPENSION.</figcaption>
+                        <figcaption class='drop-down-text-caption-two'> march 29, 2017</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of features -->
+
+
+          <div id='event' class='nav-link' ui-sref='#'>Event Coverage
+            <div id='coverage-dropdown' class='hover-box event-img-responsive'>
+              <div id='event-img-responsive'>
+                <div class='col-md-12'>
+                  <div class='row drop-down-container'>
+                    <h1 id='event-coverage-header' class='drop-down-text'>event coverage</h1>
+                    <p class='all-see'>
+                      <a ui-sref='#' class='see-all'>See All</a>
+                    </p>
+                    <div class='events'>
+                      <ul>
+                        <li>us events</li>
+                        <li>japan events</li>
+                        <li>europe events</li>
+                        <li>other events</li>
+                      </ul>
+                    </div>
+                    <div class='drop-down-img-text-container'>
+                      <div class='col-md-4 col-xs-4'>
+                        <img class='img-responsive' src='./img/event-dropdown-one.jpeg'>
+                        <figcaption class='drop-down-text-caption event-coverage-drop-down-header'> DORIDORE ＆ON FLEEK MEET 2017 // PHOTO COVERAGE.
+                        </figcaption>
+                        <figcaption class='event-drop-down-text-caption-two'> march 29, 2017</figcaption>
+                      </div>
+                      <div class='col-md-4 col-xs-4'>
+                        <img class='img-responsive' src='./img/event-dropdown-two.jpeg'>
+                        <figcaption class='drop-down-text-caption event-coverage-drop-down-header'> PANDA JUNCTION 2017 // QUICK RECAP.
+                        </figcaption>
+                        <figcaption class='event-drop-down-text-caption-two'>MAY 17, 2017</figcaption>
+                      </div>
+                      <div class='col-md-4 col-xs-4'>
+                        <img class='img-responsive' src='./img/event-dropdown-three.jpeg'>
+                        <figcaption class='drop-down-text-caption event-coverage-drop-down-header'> TUNING WORLD BODENSEE 2017 // QUICK RECAP.
+                        </figcaption>
+                        <figcaption class='event-drop-down-text-caption-two'>MAY 12, 2017</figcaption>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of event -->
+          <div id='web' class='nav-link' ui-sref='#'>Around the web
+            <div id='web-dropdown' class='hover-box'>
+              <div class='row'>
+                <div class='col-xs-12'>
+
+                  <h1 id='web-drop-down-text' class='drop-down-text'> Around the web</h1>
+                  <p class='drop-down-see-all'>
+                    <a ui-sref='#' class='see-all'>See All</a>
+                  </p>
+                </div>
+              </div>
+              <div class='row drop-down-imgs'>
+                <div class='col-md-12'>
+                  <div class='col-md-4 col-xs-4'>
+                    <img class='img-responsive' src='./img/web1.jpeg'>
+                    <figcaption class='drop-down-text-caption'> bold move..</figcaption>
+                    <figcaption class='drop-down-text-caption-two'> march 29, 2017</figcaption>
+                  </div>
+                  <div class='col-md-4 col-xs-4'>
+                    <img class='img-responsive' src='./img/web2.jpeg'>
+                    <figcaption class='drop-down-text-caption'> sexy couple!</figcaption>
+                    <figcaption class='drop-down-text-caption-two'> march 29, 2017</figcaption>
+                  </div>
+                  <div class='col-m4-4 col-xs-4'>
+                    <img class='img-responsive' src='./img/web3.jpeg'>
+                    <figcaption class='drop-down-text-caption'> e46 love.</figcaption>
+                    <figcaption class='drop-down-text-caption-two'> march 29, 2017</figcaption>
+                  </div>
+
+                </div>
+              </div>
+              </di>
+            </div>
+          </div>
+          <!-- end of web -->
+          <div id='merch' class='nav-link' ui-sref='#'>merchandise</div>
+          <div id='parts' class='nav-link' ui-sref='#'>parts shop</div>
+
+        </div>
+        <!-- end of nav-bar -->
+
+      </div>
+      <!-- end of xs-12 -->
+    </div>
+    <!-- end of row -->
+    <div class="row ">
+      <div class="col-xs-12">
+        <div id='img-carousel' class='carousel slide carousel-img-container' data-ride='carousel'>
+          <!-- indicators -->
+          <ol class='carousel-indicators'>
+            <li data-target='#img-carousel' data-slide-to='0' class='active'></li>
+            <li data-target='#img-carousel' data-slide-to='1'></li>
+            <li data-target='#img-carousel' data-slide-to='2'></li>
+          </ol>
+
+          <!-- wrapper for slides -->
+
+          <div class='carousel-inner' role='listbox'>
+            <div id='carousel1' class='item active col-xs-12'>
+              <div class='col-xs-6 carousel-img-container'>
+                <img class="img-responsive" src='./img/img-carousel1.jpg'>
+                <div class='carousel-text'>
+                  <h1 class='carousel-h1-tag'>how insane is this ferrari?</h1>
+                  <p class='carousel-p-tag'>stancenation • december 6, 2014</p>
+                </div>
+              </div>
+              <div class='col-xs-6 carousel-img-container item active'>
+                <img class="img-responsive" src='./img/img-carousel2.jpg'>
+                <div class='carousel-text'>
+                  <h1 class='carousel-h1-tag'>Pretty crazy fitment on this 350z..</h1>
+                  <p class='carousel-p-tag'>stancenation • september 2, 2014</p>
+                </div>
+              </div>
+            </div>
+            <div id='carousel2' class='item col-xs-12'>
+              <div class='col-xs-6 carousel-img-container'>
+                <img class="img-responsive" src='./img/img-carousel3.jpg'>
+                <div class='carousel-text'>
+                  <h1 class='carousel-h1-tag'>mean liberty walk e92..</h1>
+                  <p class='carousel-p-tag'>stancenation • february 23, 2015</p>
+                </div>
+              </div>
+              <div class='col-xs-6 carousel-img-container'>
+                <img class="img-responsive" src='./img/img-carousel4.jpg'>
+                <div class='carousel-text'>
+                  <h1 class='carousel-h1-tag'>CHECK OUT THAT FITMENT.</h1>
+                  <p class='carousel-p-tag'>STANCENATION • AUGUST 13, 2015</p>
+                </div>
+              </div>
+            </div>
+            <div id='carousel3' class='item col-xs-12'>
+              <div class='col-xs-6 carousel-img-container'>
+                <img class="img-responsive" src='./img/img-carousel5.jpg'>
+                <div class='carousel-text'>
+                  <h1 class='carousel-h1-tag'>GORGEOUS TOYOTA SUPRA!</h1>
+                  <p class='carousel-p-tag'>STANCENATION • FEBRUARY 7, 2014</p>
+                </div>
+              </div>
+              <div class='col-xs-6 carousel-img-container'>
+                <img class="img-responsive" src='./img/img-carousel6.jpg'>
+                <div class='carousel-text'>
+                  <h1 class='carousel-h1-tag'>crazy clean!</h1>
+                  <p class='carousel-p-tag'>stancenation • august 22, 2016</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <!-- end of carousel -->
+      </div>
+      <!-- end of col-xs-12 -->
+    </div>
+    <!-- end of row -->
+
+
+    <div class='inner-left-container'>
+      <div class='inner-right-container'>
+        <div class='inner-right-header'>
+     <h2 class='header-inner-right'> Around the web</h2>
+     </div>
+      <div class='inner-right-images'>
+
+      <img class='inner-right-img img-reponsive' src='./img/asset 8.jpeg'>
+      <h1 class='bold-move'>bold move</h1>
+      <p class='bold-move-date' >march 29, 2017 </p>
+
+  </div>
+  <div class='inner-right-images' >
+      <img class='inner-right-img img-reponsive' src='./img/asset 9.jpeg'>
+  <h1 class='couple' >sexy couple!</h1>
+  <p class='couple-date' >march 29, 2017 </p>
+    </div>
+    <div class='inner-right-images' >
+        <img class='inner-right-img img-reponsive' src='./img/asset 10.jpeg'>
+    <h1 class='e46-love' >e46 love.</h1>
+    <p class='e46-love-date' >march 29, 2017 </p>
+      </div>
+      <div class='inner-right-images' >
+          <img class='inner-right-img img-reponsive' src='./img/asset 17.jpeg'>
+      <h1 class='different' >Different. we love it!</h1>
+      <p class='different-date' >march 29, 2017 </p>
+        </div>
+        <div class='inner-right-images' >
+            <img class='inner-right-img img-reponsive' src='./img/asset 18.jpeg'>
+        <h1 class='fd-thoughts' >thoughts on this fd?</h1>
+        <p class='fd-thoughts-date' >march 28, 2017 </p>
+          </div>
+          <div class='inner-right-partners'>
+       <h2 class='header-inner-partners'> Our partners</h2>
+       <div class='right-ads'>
+       <img class='inner-right-ads' src='./img/asset 19.jpeg'>
+       <img class='inner-right-ads' src='./img/asset 20.jpeg'>
+       <img class='inner-right-ads' src='./img/asset 21.jpeg'>
+       <img class='inner-right-ads' src='./img/asset 23.png'>
+     </div>
+     <img class='stance-merch' src='./img/asset 22.jpeg'>
+       </div>
+</div>
 
 
 
 
 
 
-  </body>
-</html>
+
+      <div class='row'>
+        <div class='col-xs-12'>
+
+          <h1 class='main-header'>Latest features</h1>
+
+        </div>
+        <div class='header-line'></div>
+      </div>
+      <div class='row'>
+        <div class='col-xs-12'>
+          <div id='blog-one' class='blogs'>
+            <div class='blog-img'>
+              <img class='img-responsive' src='./img/blog-img1.jpeg'>
+            </div>
+            <div class='blog-text'>
+              <div class='blog-header'>
+                <h1 class='blog-header-text'> SPECIAL BLEND // DENNY PUTRA’S MERCEDES BENZ E300.</h1>
+              </div>
+              <div class='blog-date'>
+                <h2 class='blog-date-text'>MORGAN WILSON • MAY 30, 2017</h2>
+              </div>
+              <div class='blog-paragraph'>
+                <p class='blog-paragraph-text'> When I decided to follow through with this feature I honestly wasn't sure if I wanted to drop two similar cars from the same marque back to back on the site, bu...</p>
+              </div>
+            </div>
+            <!-- end of blog-text -->
+          </div>
+          <!-- end of blogs -->
+          <div class='hr'>
+            <hr />
+          </div>
+        </div>
+        <!-- end of col-xs-12 -->
+      </div>
+      <!-- end of row-->
+      <div class='row'>
+        <div class='col-xs-12'>
+          <div class='blogs'>
+            <div class='blog-img'>
+              <img class='img-responsive' src='./img/blog-img2.jpeg'>
+            </div>
+            <div class='blog-text'>
+              <div class='blog-header'>
+                <h1 class='blog-header-text'> DORIDORE ＆ON FLEEK MEET 2017 // PHOTO COVERAGE.</h1>
+              </div>
+              <div class='blog-date'>
+                <h2 class='blog-date-text'>STANCENATION• MAY 23, 2017</h2>
+              </div>
+              <div class='blog-paragraph'>
+                <p class='blog-paragraph-text'>Motorland Mikawa used to be the go to spot, but for 2017 the organizers of Dori Dore (Drift & Dressup) & On Fleek worked together to take their events to anothe...</p>
+              </div>
+            </div>
+            <!-- end of blog-text -->
+          </div>
+          <!-- end of blogs -->
+          <div class='hr'>
+            <hr />
+          </div>
+        </div>
+        <!-- end of col-xs-12 -->
+      </div>
+      <!-- end of row-->
+      <div class='big-blog'>
+       <div class='big-blog-img'>
+         <img class='big-img' src='./img/big-blog-img1.jpeg'>
+         <figcaption class='big-blog-header'>USDM DONE RIGHT // NORIFUMI KOBAYASHI HONDA ACCORD TOURER.</figcaption>
+         <figcaption class='big-blog-date'>SEAN BIGGS • MAY 21, 2017</figcaption>
+         <figcaption class='big-blog-paragraph'>The JDM is always USDM’er on other side of the ocean.  Okay so maybe that isn’t quite the expression, but hear me out. First, I have to offer a quick history lesson.  Over a decade ago, in the post-millennium North American Japanese import...</figcaption>
+</div> <!-- end of big-blog-img -->
+<div>
+  <hr id='big-blog-hr' />
+</div>
+      </div><!-- end of big-blog -->
+      <div class='row'>
+        <div class='col-xs-12'>
+          <div class='blogs2'>
+            <div class='blog-img'>
+              <img class='img-responsive' src='./img/blog-img3.jpg'>
+            </div>
+            <div class='blog-text'>
+              <div class='blog-header'>
+                <h1 class='blog-header-text'> PANDA JUNCTION 2017 // QUICK RECAP.</h1>
+              </div>
+              <div class='blog-date'>
+                <h2 class='blog-date-text'>STANCENATION • MAY 17, 2017</h2>
+              </div>
+              <div class='blog-paragraph'>
+                <p class='blog-paragraph-text'>We haven’t covered this event in a couple years, but Panda Junction marks the beginning to car season for the east coast! As usual, the event was held at Ripken...</p>
+              </div>
+            </div>
+            <!-- end of blog-text -->
+          </div>
+          <!-- end of blogs2 -->
+          <div class='hr'>
+            <hr />
+          </div>
+        </div>
+        <!-- end of col-xs-12 -->
+      </div>
+      <!-- end of row-->
+      <div class='row'>
+        <div class='col-xs-12'>
+          <div class='blogs2'>
+            <div class='blog-img'>
+              <img class='img-responsive' src='./img/blog-img4.jpg'>
+            </div>
+            <div class='blog-text'>
+              <div class='blog-header'>
+                <h1 class='blog-header-text'>TUNING WORLD BODENSEE 2017 // QUICK RECAP.</h1>
+              </div>
+              <div class='blog-date'>
+                <h2 class='blog-date-text'>SEBASTIAN VOLL • MAY 12, 2017</h2>
+              </div>
+              <div class='blog-paragraph'>
+                <p class='blog-paragraph-text'>Ever since Tuning World Bodensee has started in 2003, it has become a highlight for many in Germany and Europe. With manufacturers and tuners showing off their ...</p>
+              </div>
+            </div>
+            <!-- end of blog-text -->
+          </div>
+          <!-- end of blogs2 -->
+          <div class='hr'>
+            <hr />
+          </div>
+        </div>
+        <!-- end of col-xs-12 -->
+      </div>
+      <!-- end of row-->
+      <div class='big-blog'>
+       <div class='big-blog-img'>
+         <img class='big-img' src='./img/big-blog-img2.jpeg'>
+         <figcaption class='big-blog-header'>#LIFEONAIR // MAX EDWARD’S ’78 BEETLE ON AIR SUSPENSION.</figcaption>
+         <figcaption class='big-blog-date'>STANCENATION • APRIL 24, 2017</figcaption>
+         <figcaption class='big-blog-paragraph'>Max Edwards has built a rather special Beetle, taking inspiration from the land of motorsport, while somehow keeping it true to its classic Beetle heritage. These are two very different styles, but they complement each other very well! The ide...</figcaption>
+    </div> <!-- end of big-blog-img -->
+    <div>
+      <hr id='big-blog-hr' />
+    </div>
+ </div> <!-- end of big-blog -->
+ <div class='row'>
+   <div class='col-xs-12'>
+     <div class='blogs2'>
+       <div class='blog-img'>
+         <img class='img-responsive' src='./img/blog-img5.jpeg'>
+       </div>
+       <div class='blog-text'>
+         <div class='blog-header'>
+           <h1 class='blog-header-text'>STAYING THE COURSE // CHANDRA KENZO’S MERCEDES-BENZ E250.</h1>
+         </div>
+         <div class='blog-date'>
+           <h2 class='blog-date-text'>MORGAN WILSON • APRIL 11, 2017</h2>
+         </div>
+         <div class='blog-paragraph'>
+           <p class='blog-paragraph-text'>With so many people going over the top in terms of styling as of late it is always a treat to see someone stay grounded when it comes to modifying their car. Th...</p>
+         </div>
+       </div>
+       <!-- end of blog-text -->
+     </div>
+     <!-- end of blogs2 -->
+     <div class='hr'>
+       <hr />
+     </div>
+   </div>
+   <!-- end of col-xs-12 -->
+ </div>
+ <!-- end of row-->
+ <div class='row'>
+   <div class='col-xs-12'>
+     <div class='blogs2'>
+       <div class='blog-img'>
+         <img class='img-responsive' src='./img/blog-img6.jpeg'>
+       </div>
+       <div class='blog-text'>
+         <div class='blog-header'>
+           <h1 class='blog-header-text'>XS CAR NIGHT LONG BEACH 2017 PHOTO COVERAGE // PART 2.</h1>
+         </div>
+         <div class='blog-date'>
+           <h2 class='blog-date-text'>SEBASTIAN VOLL • ARRIL 7, 2017</h2>
+         </div>
+         <div class='blog-paragraph'>
+           <p class='blog-paragraph-text'>Back again with the second part of XS Car Night Long Beach and today we've got another set of 100+ photos of some of our favorite cars from the show. It's safe ...</p>
+         </div>
+       </div>
+       <!-- end of blog-text -->
+     </div>
+     <!-- end of blogs2 -->
+     <div class='hr'>
+       <hr />
+     </div>
+   </div>
+   <!-- end of col-xs-12 -->
+ </div>
+ <!-- end of row-->
+ <div class='big-blog'>
+  <div class='big-blog-img'>
+    <img class='big-img' src='./img/big-blog-img3.jpeg'>
+    <figcaption class='big-blog-header'>XS CAR NIGHT LONG BEACH 2017 PHOTO COVERAGE // PART 1.</figcaption>
+    <figcaption class='big-blog-date'>STANCENATION • APRIL 3, 2017</figcaption>
+    <figcaption class='big-blog-paragraph'>What do you get when you bring German, Japanese & even a few Americans cars together? You'd actually be surprised at how beautiful of a sight it is. Our photographer Randy Goco made his way down to Long Beach a few days ago to check out the annual XS...</figcaption>
+</div> <!-- end of big-blog-img -->
+<div>
+ <hr id='big-blog-hr' />
+</div>
+</div> <!-- end of big-blog -->
+
+
+    </div>
+    <!-- end of inner-left-container -->
+  </div>
+  <!--end main container-->
+</div>
+<!-- end of container -->
+
+<footer class='container-fluid'></footer>

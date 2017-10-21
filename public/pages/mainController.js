@@ -9,11 +9,13 @@ $(document).ready(function() {
   });
 
   $(window).scroll(function(){
-    if($(document).scrollTop() > 160){
+    if($(window).scrollTop() > 160){
       $('.nav-bar').addClass('change');
+      $('.hover-box').addClass('change');
     }
     else{
     $('.nav-bar').removeClass('change');
+    $('.hover-box').removeClass('change');
     }
   });
  });

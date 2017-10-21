@@ -1,3 +1,1 @@
-angular.module('app').controller('homeController', function($scope){
-
-})
+angular.module('app').controller('homeController', function($scope){});

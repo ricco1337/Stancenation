@@ -6,130 +6,22 @@
   <meta name="viewport" content="width=device-width">
   <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel='stylesheet'>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:bold" rel="stylesheet">
-    <link rel="stylesheet" href="bundle.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:bold" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="bundle.css">
 
 </head>
-
-<body ng-controller='mainController'>
-  <div class='container'>
-    <div id='menu-top'>
-      <div class='top-left'>
-        <ul class='sub-reg'>
-          <li id='insta-sub' class='instagram-sub'>
-            <a ui-sref="#">instagram submission</a>
-          </li>
-          <li id='tex' class='texas'>
-            <a ui-sref='#'>stancenation texas registration</a>
-          </li>
-        </ul>
-      </div>
-      <!-- end of top-left -->
-      <div class='top-right'>
-        <div class='search'><span><i><a ui-sref='#' class='fa fa-search'></a></i></span><a >search</a>
-          <span><i class='fa fa-facebook'><a href='https://www.facebook.com/stancenation'></a></i></span>
-          <span><i class='fa fa-instagram'></i><a href="http://www.instagram.com/stancenation"></a></span>
+<body>
+  <ui-view></ui-view>
 
 
-
-        </div>
-      </div>
-      <!-- end of top-right -->
-    </div>
-    <!-- end menu-top -->
-    <div class='row'>
-      <div id='main-container' class='col-xs-12'>
-
-        <div class='row'>
-          <div class='col-xs-12' id='ad-logo'>
-            <div class='logo-img-container' id='black-logo'>
-              <img class='img-responsive' src="./img/black-logo.png"></div>
-            <div class='logo-img-container'>
-              <img class='img-responsive' id='stamps' src="./img/stamps.png">
-            </div>
-          </div>
-          <!-- end of column -->
-        </div>
-        <!-- end of row -->
-        <div class='row'>
-          <div class='col-xs-12'>
-            <div class='nav-bar'>
-
-              <div id='home' class='nav-link' ui-sref='#'>Home</div>
-
-              <div id='features' class='nav-link' ui-sref='#'>Car features
-                <div id='car-features-dropdown' class='hover-box'>
-                  <div class='upper-title'>
-                  <p> car features<p>
-                  <a ui-sref='#' class='see-all'>See All</a>
-                </div>
-                  <div class='col-md-12'>
-                  <div class='row'>
-                  <div class='col-md-4 col-xs-4'>
-                  <img  class='img-responsive' src="./img/features-dropdown1.jpg">
-                </div>
-                  <div class='col-md-4 col-xs-4'>
-                  <img class='img-responsive' src="./img/features-dropdown2.jpg">
-                </div>
-              <div class='col-md-4 col-xs-4'>
-                  <img  class='img-responsive' src="./img/features-dropdown3.jpg">
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-              <div id='event' class='nav-link' ui-sref='#'>Event Coverage
-                <div id='coverage-dropdown' class='hover-box'>
-                <div class='col-md-4 col-xs-4'>
-                  <img class='event-dropdown-img1' src='./img/event-dropdown-one.jpeg'>
-                </div>
-                <div class='col-md-4 col-xs-4'>
-                  <img class='event-dropdown-img2' src='./img/event-dropdown-two.jpeg'>
-                </div>
-                <div class='col-md-4 col-xs-4'>
-                  <img class='event-dropdown-img3' src='./img/event-dropdown-three.jpeg'>
-                </div>
-                </div>
-              </div>
-
-              <div id='web' class='nav-link' ui-sref='#'>Around the web
-                <div id='web-dropdown' class='hover-box col-xs-12'>
-                  <div class='col-md-4 col-xs-4'>
-              <img class='around-web-dropdown-img1' src='./img/web1.jpeg'>
-            </div>
-            <div class='col-md-4 col-xs-4'>
-                <img class='around-web-dropdown-img2' src='./img/web2.jpeg'>
-              </div>
-            <div class='col-m4-4 col-xs-4'>
-                <img class='around-web-dropdown-img3' src='./img/web3.jpeg'>
-              </div>
-                </div>
-              </div>
-
-              <div id='merch' class='nav-link' ui-sref='#'>merchandise</div>
-              <div id='parts' class='nav-link' ui-sref='#'>parts shop</div>
-
-
-            </div>
-            <!-- end of column -->
-          </div>
-          <!-- end of row -->
-        </div>
-        <!-- end of row -->
-
-      </div>
-      <!-- end of main-container -->
-      <ui-view></ui-view>
-    </div>
-    <!-- end of container -->
-    <footer class='container-fluid'></footer>
-    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js'></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.0/angular-ui-router.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
-    <script src='bundle.js'></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.0/angular-ui-router.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src='bundle.js'></script>
 </body>
 
 </html>
